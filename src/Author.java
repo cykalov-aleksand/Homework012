@@ -25,7 +25,7 @@ public class Author {
         if (name != null && !name.isBlank()) {
             this.name = name.trim();
         } else {
-            String error = "ОШИБКА ввода имени автора - " + this.surname;
+            String error = " ОШИБКА ввода имени автора - " + this.surname;
             throw new RuntimeException(error);
         }
     }

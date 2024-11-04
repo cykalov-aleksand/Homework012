@@ -15,7 +15,7 @@ public class Main {
         System.out.println(" Второй вариант вывода информации с помощью геттеров ");
         System.out.printf("%10s%45s%20s%20s%20s\n", "№ книги", "Название книги", "Имя автора", "Фамилия автора", "Год издания");
         System.out.printf("%10s%45s%20s%20s%20d\n", "Книга 1", book1.getTitle(), book1.getAuthor().getName(),
-                book1.getAuthor().getSurname(), book1.getYearRelease());
+                 book1.getAuthor().getSurname(), book1.getYearRelease());
         System.out.printf("%10s%45s%20s%20s%20d\n", "Книга 2", book2.getTitle(), book2.getAuthor().getName(),
                 book2.getAuthor().getSurname(), book2.getYearRelease());
     }

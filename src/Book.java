@@ -59,6 +59,6 @@ public class Book {
     }
 
     public void show(String numberBook) {
-        System.out.printf("%10s%45s%20s%20s%20d\n", numberBook, this.title, author.getName(), author.getSurname(), this.yearRelease);
+        System.out.printf("%10s%45s%20s%20s%20d\n ", numberBook, this.title, author.getName(), author.getSurname(), this.yearRelease);
     }
 }
